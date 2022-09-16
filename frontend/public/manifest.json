@@ -1,0 +1,50 @@
+
+
+{
+  "name": "ChideStore",
+  "short_name": "ChideStore",
+  "theme_color": "white",
+  "background_color": "white",
+  "display": "standalone",
+  "scope": "/",
+  "start_url": ".",
+  "prefer_related_applications": false,
+  "icons": [
+    {
+      "src": "maskable.png",
+      "sizes": "196x196",
+      "type": "image/png",
+      "purpose": "maskable"
+    },
+    {
+      "src": "logo192.png",
+      "type": "image/png",
+      "sizes": "192x192"
+    },
+    {
+      "src": "logo256.png",
+      "type": "image/png",
+      "sizes": "256x256"
+    },
+    {
+      "src": "logo384.png",
+      "type": "image/png",
+      "sizes": "384x384"
+    },
+    {
+      "src": "logo512.png",
+      "type": "image/png",
+      "sizes": "512x512"
+    }
+  ],
+  "share_target": {
+    "action": "/download",
+    "method": "GET",
+    "enctype":"application/x-www-form-urlencoded",
+    "params": {
+      "title": "title",
+      "text": "text",
+      "url": "url"
+    }
+  }
+}

@@ -1,0 +1,29 @@
+.skeleton-wrapper{
+    background-color: white;
+    min-height: 120vh;
+    width: 100%;
+    overflow: hidden;
+}
+
+.skeleton{
+    height: 100%;
+    transform: translate(100%);
+    animation: 1s leftToRight linear infinite;
+}
+
+.skeleton-indicator{
+    width: 1000px;
+    background-color: white;
+    height: 100%;
+    box-shadow: 0 0 5px 5px  red;
+
+}
+
+@keyframes leftToRight{
+    from{
+        transform: translate(0);
+    }
+    to{
+        transform: translate(100%);
+    }
+}

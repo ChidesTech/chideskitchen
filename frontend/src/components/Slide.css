@@ -1,0 +1,166 @@
+
+
+
+/* .imageSlide{
+  transform: scale(1, 1);
+  -webkit-animation-name: zoomin;
+  -webkit-animation-duration: 2s;
+  animation-name: zoomin;
+  animation-duration: 2s;
+ 
+}
+@keyframes zoomin{
+from{
+  transform: scale(100%,107%);
+}
+to{
+    transform: scale(1,1);
+}
+} */
+
+.text{
+    position:absolute;
+    padding:2% 2.5%;
+    font-size:6rem;
+    color:orangered;
+    font-weight:bolder;
+    text-shadow:1px 1px 1px black;
+    -webkit-animation-name: moves;
+    -webkit-animation-duration: 2s;
+    animation-name: moves;
+    animation-duration: 2s;
+    font-family: "Roboto Mono";
+   
+  }
+
+.text span{
+  font-size: 8rem;
+  font-family: cursive;
+}
+
+  @keyframes moves{
+    from{
+     padding:2% 0% ;
+    }
+    to{
+        padding:2% 2.5% ;
+    }
+    }
+    
+.text2{
+    position:absolute;
+    padding:3.5% 2.5%;
+    font-size:3.6rem;
+    color:goldenrod;
+    text-shadow:1px 1px 1px black;
+    -webkit-animation-name: moves2;
+    -webkit-animation-duration: 2s;
+    animation-name: moves2;
+    animation-duration: 2s;
+    font-family: "Roboto Mono";
+   
+  }
+  @keyframes moves2{
+    from{
+     padding:1% 2.5% ;
+    }
+    to{
+        padding:3.5% 2.5% ;
+    }
+    }
+    
+
+    
+
+     @media(max-width:900px){
+        .text{
+            position:absolute;
+            padding:6% .5%;
+            font-size:4rem;
+            color:orangered;
+            font-weight:bolder;
+            text-shadow:1px 1px 1px white;
+            -webkit-animation-name: moves;
+            -webkit-animation-duration: 2s;
+            animation-name: moves;
+            animation-duration: 2s;
+           
+          }
+          @keyframes moves{
+            from{
+             padding:6% 9% ;
+            }
+            to{
+                padding:6% 0.5% ;
+            }
+            }
+            .text2{
+                position:absolute;
+                padding:8% 0.5%;
+                font-size:3rem;
+                color:yellow;
+                text-shadow:1px 1px 1px orangered;
+                -webkit-animation-name: moves2;
+                -webkit-animation-duration: 2s;
+                animation-name: moves2;
+                animation-duration: 2s;
+               
+              }
+              @keyframes moves2{
+                from{
+                 padding:1% 0.5% ;
+                }
+                to{
+                    padding:8% 0.5% ;
+                }
+                }
+                
+     }
+
+     @media(max-width:450px){
+        
+        .text{
+            position:absolute;
+            padding:4% .5%;
+            font-size:3rem;
+            color:orangered;
+            font-weight:bolder;
+            text-shadow:1px 1px 1px white;
+            -webkit-animation-name: moves;
+            -webkit-animation-duration: 2s;
+            animation-name: moves;
+            animation-duration: 2s;
+           
+          }
+          @keyframes moves{
+            from{
+             padding:4% 7% ;
+            }
+            to{
+                padding:4% 0.5% ;
+            }
+            }
+            .text2{
+                position:absolute;
+                padding:7% 0.5%;
+                font-size:1.6rem;
+                color:white;
+                font-weight: bolder;
+                text-shadow:1px 1px 1px orangered;
+                -webkit-animation-name: moves2;
+                -webkit-animation-duration: 2s;
+                animation-name: moves2;
+                animation-duration: 2s;
+               
+              }
+              @keyframes moves2{
+                from{
+                 padding:1% 0.5% ;
+                }
+                to{
+                    padding:7% 0.5% ;
+                }
+                }
+                
+          
+     }

@@ -1,0 +1,15 @@
+.slider{
+    position: relative;
+    height: 80vh;
+    width: 100%;
+    margin: 0 auto;
+    overflow: hidden;
+    background:orangered
+}
+
+@media(max-width:900px){
+    .slider{
+    height: 70vh;
+    }
+
+}

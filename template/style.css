@@ -1,0 +1,161 @@
+html{
+    font-size: 62.5%;
+    box-sizing: border-box;
+}
+
+body{
+    margin: 0;
+    height:100vh;
+    font-size: 1.6rem;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+
+}
+
+.grid-container{
+    display: grid;
+    grid-template-areas: "header" "main" "footer";
+    grid-template-columns: 1fr ;
+    grid-template-rows: 5rem 1fr 5rem;
+    height:100%;
+}
+header{
+    grid-area: header;
+    box-shadow:0 0.2rem 0.8rem rgba(0, 0, 0, 0.4) ;
+    background-color: white;
+   
+
+}
+
+main{
+    grid-area: main;
+    padding: 1rem;
+
+}
+
+footer{
+    grid-area: footer;
+    background-color: navy;
+}
+
+
+header a{
+   color: black;
+}
+header a:hover{
+   color: navy;
+}
+
+a{
+    text-decoration: none;
+    
+}
+a{
+    text-decoration: none;
+}
+
+a.brand{
+    color: black;
+    font-size: 3rem;
+    font-weight: bold;
+}
+.row{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+.row.center{
+    justify-content: center;
+}
+
+
+.products{
+    display: flex;
+    flex-wrap: wrap;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    justify-content: center;
+    align-items: stretch;
+    }
+    
+    .products li{
+        flex: 0 1 30rem;
+        margin: 0;
+        margin-bottom: 0;
+        height: 32rem;
+        padding: 0;
+        
+        }
+    .products li:hover{
+        flex: 0 1 305px;
+        margin: 0;
+        margin-bottom: 0;
+        height: 32rem; 
+        
+        
+        }
+    
+    .product{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        gap: 0;
+        height: 100%;
+        margin-left: 45px;
+        padding: 0;
+        
+        
+    }    
+    
+    
+    
+    .product img{
+        max-height: 26rem;
+        max-width: 22rem;
+        margin-top: 2rem;
+        width: 20rem;
+        height: 23rem;
+        border-top: grey 1px solid;
+        
+    }
+    .product img:hover{
+        box-shadow:1px 0.3rem 0.9rem rgba(15, 8, 27, 0.9) ;
+        
+        border: none;
+       
+    }
+    
+    .product-name{
+        line-height: 2.2rem;
+        font-size: 1.8rem;
+        margin-bottom: 0;
+        font-weight: bold;
+        
+    }
+    .product-name a{
+        
+       color: black;
+        
+    }
+    .product-rating{
+        font-size: 1.3rem;
+        margin-bottom: 0;
+    }
+
+    .product-price{
+        font-weight: bolder;
+        color:rgb(21, 21, 92);
+        font-size: 2.2rem;
+        margin: auto 0;
+    }
+    
+    
+    .rating{
+        color:rgb(110, 85, 9);
+        font-size: 1.3rem;
+        margin-right: 5px;
+    }
+    
