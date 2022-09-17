@@ -248,7 +248,7 @@ const HomePage =(props)=>{
         <Hero></Hero>
         </div>
 
-        <h3 style={{textAlign:"center",fontSize:"3rem", marginBottom:"-10rem", marginTop:"7rem",color:"orangered", textShadow:"1px 0 0 black"}}>SHOP WITH US</h3>
+        <h3 style={{textAlign:"center",fontSize:"3rem", marginBottom:"-10rem", marginTop:"5rem",color:"orangered", textShadow:"1px 0 0 black"}}>Our Services</h3>
 
 {/* <h1 style={{marginBottom:"-7rem"}} className="heading"> <span>Shop</span> With Us </h1> */}
 
@@ -346,7 +346,7 @@ const HomePage =(props)=>{
       </div> */}
 {/* <h1 className="heading">  <span>Product</span> Gallery</h1> */}
 
-      <h2 style={{textAlign:"center",fontSize:"3rem", marginTop:"7rem", color:"orangered", textShadow:"1px 0 0 black"}}>Product Gallery </h2>
+      <h2 style={{textAlign:"center",fontSize:"3rem", marginTop:"3rem", color:"orangered", textShadow:"1px 0 0 black"}}> Food Menu </h2>
        {loading?  <LinearProgress
       style={{margin:"10% 30%",height:"2rem"}}
      

@@ -11,7 +11,7 @@ const Search =(props)=>{
     }
     return <div className="search-container">
     <form action="" onSubmit={submitHandler} >
-<input type="search" name="search" style={{borderRadius:"12px",border:"1px solid orangered"}} id="search" onChange={(e)=>setName(e.target.value)} placeholder="Search For Foodm Item . . ."/>
+<input type="search" name="search" style={{borderRadius:"12px",border:"1px solid orangered"}} id="search" onChange={(e)=>setName(e.target.value)} placeholder="Search For Food Item . . ."/>
 
 <button className="search-close"  onClick={submitHandler} type="submit" ><img className="search search-close" src="/search-solid.svg" style={{height:'4rem', width:"2rem"}} alt=""/></button>
 </form>

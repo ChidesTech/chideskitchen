@@ -13,6 +13,20 @@ userRoute.get("/seed",expressAsyncHandler(async(req, res)=>{
     const createdUsers = await User.insertMany(data.users);
     res.send({createdUsers})
 }));
+userRoute.get("/createadmin",expressAsyncHandler(async(req, res)=>{
+    const admin = new User({
+         name: "Desmond",
+         email: "dnwosu008@gmail.com",
+         password: bcrypt.hashSync("desmond", 8),
+         isAdmin: true,
+         isSuper: true,
+
+    
+    });
+    await admin.save();
+    res.send(admin)
+
+}));
 
 
 userRoute.post(
