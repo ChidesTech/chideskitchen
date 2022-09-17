@@ -19,8 +19,8 @@ app.use(express.urlencoded({ extended: true }));
 app.use(express.json({limit: "50mb"}));
 app.use(express.urlencoded({limit: "50mb", extended: true }));
 
-const MongoDBUri = "mongodb://localhost/chideStore";
-//  const MongoDBUri = "mongodb://chidestech:1Luvumum%2f@cluster0-shard-00-00.pzpph.mongodb.net:27017,cluster0-shard-00-01.pzpph.mongodb.net:27017,cluster0-shard-00-02.pzpph.mongodb.net:27017/kenac-sports?ssl=true&replicaSet=atlas-sg448v-shard-0&authSource=admin&retryWrites=true&w=majority";
+// const MongoDBUri = "mongodb://localhost/chideStore";
+ const MongoDBUri = "mongodb://chidestech:1Luvumum%2f@cluster0-shard-00-00.pzpph.mongodb.net:27017,cluster0-shard-00-01.pzpph.mongodb.net:27017,cluster0-shard-00-02.pzpph.mongodb.net:27017/kenac-sports?ssl=true&replicaSet=atlas-sg448v-shard-0&authSource=admin&retryWrites=true&w=majority";
 mongoose.connect(MongoDBUri, {
     useNewUrlParser: true,
     useUnifiedTopology: true,
